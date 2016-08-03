@@ -48,8 +48,15 @@ main h2 {
 }
 
 .row section {
-	background-color: #cccccc
+	background-color: #cccccc;
+	margin-bottom: 30px;
+	padding: 15px;
 }
+
+.row div:last-child {
+	margin-bottom: 0;
+}
+
 
 section h3 {
 	font-family: 'Open Sans Condensed', sans-serif;
