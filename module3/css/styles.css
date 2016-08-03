@@ -1,7 +1,66 @@
+/* HEADER SECTION */
 #header-nav {
 	background-color: #cccccc;
 }
 
-h1.navbar-brand {
+#brand-name {
 	font-size: 2.5em;
+	font-family: 'Open Sans Condensed', sans-serif;
+	line-height: 10px;
+	margin-left: 15px;
+}
+
+#brand-name:hover {
+	color: #777;
+}
+
+.navbar-header button.navbar-toggle {
+	margin: 22px 30px 22px 0; 
+	background-color: #f2f2f2;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #777;
+}
+
+.navbar-header button.navbar-toggle:hover {
+	background-color: #d9d9d9;
+}
+
+li {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2em;
+}
+/*END HEADER SECTION */
+
+/* MAIN SECTION */
+main > .container-fluid {
+	margin-right: 30px;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+main h2 {
+	margin: 30px 30px 51px 30px;
+	font-family: 'Lobster', cursive;
+	font-size: 3em;
+	color: #777;
+}
+
+.row section {
+	background-color: #cccccc
+}
+
+section h3 {
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 2.5em;
+	color: #777;
+}
+/* END MAIN SECTION */
+
+@media (max-width: 767px) {
+	.container-fluid > .navbar-header {
+		margin-right: 0;
+		margin-left: 0;
+	}
 }
