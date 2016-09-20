@@ -4,12 +4,15 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower"
+    rel="stylesheet">
     <title>Assignment 2</title>
   </head>
   <body>
     <div class="container">
-      <h1>Shopping List Application</h1>
+      <h1 class="text-center"><strong>Shopping List</strong></h1>
       <div class="row">
+        <!-- First list. This is the "ToBuy" list. -->
         <div class="col-md-6 col-xs-12"
         ng-controller="ToBuyShoppingController as buyCtrl">
           <h2>To Buy</h2>
@@ -26,6 +29,7 @@
           </div>
         </div>
 
+        <!-- Second list. This is the "AlreadyBought" list. -->
         <div class="col-md-6 col-xs-12"
         ng-controller="AlreadyBoughtShoppingController as boughtCtrl">
           <h2>Already Bought</h2>
